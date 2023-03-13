@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaipeiActivity"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/topimg"
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            android:src="@drawable/nantou" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nantou 南投"
+            android:textColor="@color/white"
+            android:textSize="48dp"
+            android:textStyle="bold"
+            android:layout_marginTop="145dp"
+            android:layout_marginLeft="3dp"/>
+
+        <TextView
+            android:id="@+id/introducein1"
+            android:layout_below="@+id/topimg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="城市介紹"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:background="#006030"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:paddingTop="3dp"/>
+        <TextView
+            android:id="@+id/introduce"
+            android:layout_below="@+id/introducein1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="位處臺灣中部，坐落在本島正中央，是全國唯一的內陸縣，所有縣中面積屬於第二大，縣治及最大城市為南投市。縣境內原住民有泰雅族、賽德克族、布農族、鄒族及居住在日月潭畔之邵族。"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:typeface="normal"
+            android:background="#FFFFFF"
+            android:alpha="0.9" />
+        <TextView
+            android:id="@+id/introducein"
+            android:layout_below="@+id/introduce"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="地理小知識"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:background="#006030"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:paddingTop="3dp" />
+
+        <TextView
+            android:id="@+id/knol"
+            android:layout_below="@+id/introducein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地形為丘陵、台地、平原，氣候為熱帶潤濕氣候型，氣溫及濕度均高，夏季多雨較為潮濕，秋冬季則較乾旱"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:typeface="normal"
+            android:background="#FFFFFF"
+            android:alpha="0.9"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/moreInfor"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/knol"
+            android:layout_marginTop="40dp"
+            android:text="點我看更多資訊"
+            android:backgroundTint="#006030"
+            android:onClick="actionPerformed"/>
+    </RelativeLayout>
+
+
+</ScrollView>

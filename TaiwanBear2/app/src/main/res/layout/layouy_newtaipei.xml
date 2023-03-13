@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewtaipeiActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/topimg"
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            android:src="@drawable/newtaipei" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NewTaipei 新北"
+            android:textColor="@color/white"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:layout_marginTop="168dp"
+            android:layout_marginLeft="3dp"/>
+
+        <TextView
+            android:layout_below="@+id/topimg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="城市介紹"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+
+            android:background="#006030"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:id="@+id/introducein1"/>
+        <TextView
+            android:layout_below="@+id/introducein1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是中華民國的直轄市，臺灣六都之一。2010年由原臺北縣改制而來，人口超過400萬人，為臺灣最大的城市及人口最多的一級行政區。全境環繞臺北市，東北則三面環繞基隆市，東南鄰宜蘭縣，西南鄰桃園市；其所轄石門區富貴角地處臺灣本島最北端，貢寮區三貂角地處臺灣本島最東端。"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+
+            android:gravity="center"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:typeface="normal"
+            android:background="#FFFFFF"
+            android:alpha="0.9"
+            android:id="@+id/introduce"/>
+
+
+
+
+        <TextView
+            android:layout_below="@+id/introduce"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="地理小知識"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:background="#006030"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:id="@+id/introducein"/>
+
+        <TextView
+            android:layout_below="@+id/introducein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="和台北一樣地形為盆地，將台北環繞，氣候為副熱帶季風氣候區，全年雨量多而平均。
+
+"       android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:typeface="normal"
+            android:background="#FFFFFF"
+            android:alpha="0.9"
+            android:textStyle="bold"
+            android:id="@+id/knol"/>
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/knol"
+            android:layout_marginTop="40dp"
+            android:text="點我看更多資訊"
+            android:backgroundTint="#006030"
+            android:onClick="actionPerformed"
+            android:textColor="@color/white"
+            android:id="@+id/BtnWeb"/>
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

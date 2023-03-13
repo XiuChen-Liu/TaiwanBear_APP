@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaipeiActivity"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/topimg"
+            android:layout_width="match_parent"
+            android:layout_height="275dp"
+            android:src="@drawable/penghug" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penghu 澎湖"
+            android:textColor="@color/white"
+            android:textSize="48dp"
+            android:textStyle="bold"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="3dp"/>
+
+        <TextView
+            android:id="@+id/introducein1"
+            android:layout_below="@+id/topimg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="城市介紹"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:background="#006030"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:paddingTop="3dp"/>
+        <TextView
+            android:id="@+id/introduce"
+            android:layout_below="@+id/introducein1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="位於臺灣海峽上，全縣四面環海，居民主要是以漁業維生，但近年來大力推動觀光產業。自古以來便是往來臺灣海峽的船隻中繼站與各方軍事爭奪的要塞。"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:typeface="normal"
+            android:background="#FFFFFF"
+            android:alpha="0.9" />
+        <TextView
+            android:id="@+id/introducein"
+            android:layout_below="@+id/introduce"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="地理小知識"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:background="#006030"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:paddingTop="3dp" />
+
+        <TextView
+            android:id="@+id/knol"
+            android:layout_below="@+id/introducein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="由90座大小不等之島嶼組成，澎湖群島遍布玄武岩地質景觀，澎湖大致位於北回歸線上，澎湖群島的地形低且平，地表缺乏良好的植被，陸地容易因日照而加溫。而冬天在東北季風強力的吹拂下也格外寒冷。\n氣候為因位於臺灣海峽中央，因此氣候深受雨量與季風的影響。澎湖群島平均年雨量約有1000毫米左右，80%集中在夏季。由於澎湖缺乏高山的屏障，冬天的風速較大，風速有時會達到8級以上。"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:typeface="normal"
+            android:background="#FFFFFF"
+            android:alpha="0.9"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/moreInfor"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/knol"
+            android:layout_marginTop="40dp"
+            android:text="點我看更多資訊"
+            android:backgroundTint="#006030"
+            android:onClick="actionPerformed"/>
+    </RelativeLayout>
+
+
+</ScrollView>

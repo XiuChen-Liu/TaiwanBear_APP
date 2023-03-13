@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".islandActivity"
+    android:background="@drawable/backgroud">
+
+    <TextView
+        android:id="@+id/TV07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="請選擇想要認識的城市"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:alpha="0.8"/>
+
+    <Button
+        android:id="@+id/BtnPenghu"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/TV07"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="澎湖"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:backgroundTint="#504A4A"
+        android:textColor="@color/white"
+        android:onClick="actionPerformed"/>
+
+    <Button
+        android:id="@+id/BtnJinmen"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/BtnPenghu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="金門"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:backgroundTint="#504A4A"
+        android:textColor="@color/white"
+        android:onClick="actionPerformed"/>
+
+    <Button
+        android:id="@+id/BtnMazu"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/BtnJinmen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="馬祖"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:backgroundTint="#504A4A"
+        android:textColor="@color/white"
+        android:onClick="actionPerformed"/>
+
+    <ImageView
+        android:id="@+id/markbear"
+        android:layout_width="180dp"
+        android:layout_height="162dp"
+        android:layout_below="@+id/BtnMazu"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/sit" />
+</RelativeLayout>

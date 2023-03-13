@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaoyuanActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/topimg"
+            android:layout_width="match_parent"
+            android:layout_height="273dp"
+            android:src="@drawable/tao" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taoyuan 桃園"
+            android:textColor="@color/white"
+            android:textSize="48dp"
+            android:textStyle="bold"
+            android:layout_marginTop="183dp"
+            android:layout_marginLeft="3dp"/>
+
+        <TextView
+            android:layout_below="@+id/topimg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="城市介紹"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+
+            android:background="#006030"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:id="@+id/introducein1"/>
+        <TextView
+            android:layout_below="@+id/introducein1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是中華民國的直轄市，臺灣六都之一。桃園是位於臺灣本島西北部的雙核心都市，屬於「首都生活圈」、「桃竹苗生活圈」的一員。在部分商業投資中，也被認為是大台北地區的組成之一。"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+
+            android:gravity="center"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:typeface="normal"
+            android:background="#FFFFFF"
+            android:alpha="0.9"
+            android:id="@+id/introduce"/>
+
+
+
+
+        <TextView
+            android:layout_below="@+id/introduce"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="地理小知識"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:background="#006030"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:id="@+id/introducein"/>
+
+        <TextView
+            android:layout_below="@+id/introducein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="地形為台地，氣候除東南山區外，全境屬副熱帶季風氣候，受到東北季風與西南季風影響最大。"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:typeface="normal"
+            android:background="#FFFFFF"
+            android:alpha="0.9"
+            android:textStyle="bold"
+            android:id="@+id/knol"/>
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/knol"
+            android:layout_marginTop="40dp"
+            android:text="點我看更多資訊"
+            android:backgroundTint="#006030"
+            android:onClick="actionPerformed"
+            android:textColor="@color/white"
+            android:id="@+id/BtnWeb"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>

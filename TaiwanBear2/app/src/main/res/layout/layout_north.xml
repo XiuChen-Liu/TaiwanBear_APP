@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".northActivity"
+    android:background="@drawable/backgroud">
+
+    <TextView
+        android:id="@+id/TV03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="請選擇想要認識的城市"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:alpha="0.8"/>
+
+    <Button
+        android:id="@+id/BtnTaipei"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/TV03"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="70dp"
+        android:text="台北"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:backgroundTint="#504A4A"
+        android:textColor="@color/white"
+        android:onClick="actionPerformed"/>
+
+    <Button
+        android:id="@+id/BtnNewtaipei"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/TV03"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@+id/BtnTaipei"
+        android:text="新北"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:backgroundTint="#504A4A"
+        android:onClick="actionPerformed"/>
+
+    <Button
+        android:id="@+id/BtnKeelung"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/BtnTaipei"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="50dp"
+        android:text="基隆"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:backgroundTint="#504A4A"
+        android:onClick="actionPerformed"/>
+
+    <Button
+        android:id="@+id/BtnYilan"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/BtnNewtaipei"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/BtnKeelung"
+        android:text="宜蘭"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:backgroundTint="#504A4A"
+        android:onClick="actionPerformed"/>
+
+    <Button
+        android:id="@+id/BtnTaoyuan"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/BtnYilan"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="50dp"
+        android:text="桃園"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:backgroundTint="#504A4A"
+        android:onClick="actionPerformed"/>
+
+    <Button
+        android:id="@+id/Btn11"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/BtnYilan"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/BtnTaoyuan"
+        android:text="新竹"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:backgroundTint="#504A4A"
+        android:onClick="actionPerformed"/>
+
+    <ImageView
+        android:id="@+id/markbear"
+        android:layout_width="180dp"
+        android:layout_height="162dp"
+        android:layout_below="@+id/Btn11"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/sit" />
+
+</RelativeLayout>

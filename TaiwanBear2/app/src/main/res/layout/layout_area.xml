@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".areaActivity"
+    android:background="@drawable/backgroud">
+
+    <TextView
+        android:id="@+id/TV02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="請選擇想要認識的地區"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:alpha="0.8"/>
+
+    <Button
+        android:id="@+id/BtnNorth"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/TV02"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="50dp"
+        android:onClick="actionPerformed"
+        android:text="北部"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:backgroundTint="#504A4A" />
+
+    <Button
+        android:id="@+id/BtnCentral"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/TV02"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/BtnNorth"
+        android:onClick="actionPerformed"
+        android:text="中部"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:backgroundTint="#504A4A" />
+
+    <Button
+        android:id="@+id/BtnSouth"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/BtnCentral"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:onClick="actionPerformed"
+        android:text="南部"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:backgroundTint="#504A4A" />
+
+    <Button
+        android:id="@+id/BtnEast"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/BtnSouth"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="40dp"
+        android:onClick="actionPerformed"
+        android:text="東部"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:backgroundTint="#504A4A" />
+
+    <Button
+        android:id="@+id/BtnIsland"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/BtnSouth"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/BtnEast"
+        android:onClick="actionPerformed"
+        android:text="離島"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:backgroundTint="#504A4A" />
+
+    <ImageView
+        android:id="@+id/markbear"
+        android:layout_width="200dp"
+        android:layout_height="192dp"
+        android:layout_below="@+id/BtnIsland"
+        android:layout_marginLeft="110sp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/bear" />
+</RelativeLayout>

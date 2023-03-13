@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.taiwanbear">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <activity android:name=".ChanghuaWebMainActivity" />
+        <activity android:name=".TaichungWebMainActivity" />
+        <activity android:name=".YunlinMainWebActivity" />
+        <activity android:name=".MiaoliWebMainActivity" />
+        <activity android:name=".NantouWebMainActivity" />
+
+        <activity android:name=".KaohsiungWebMainActivity" />
+        <activity android:name=".TainanWebMainActivity" />
+        <activity android:name=".ChiayiWebMainActivity" />
+        <activity android:name=".PingtungWebMainActivity" />
+
+        <activity android:name=".TaitungWebMainActivity" />
+        <activity android:name=".HualienWebMainActivity" />
+        <activity android:name=".PenghuWebMainActivity" />
+        <activity android:name=".JinmenWebMainActivity" />
+        <activity android:name=".MazuWebMainActivity" />
+
+        <activity android:name=".NewtaipeiActivity" />
+        <activity android:name=".NewtaipeiWebActivity" />
+        <activity android:name=".HsinchuActivity" />
+        <activity android:name=".HsinchuWebActivity" />
+        <activity android:name=".TaoyuanActivity" />
+        <activity android:name=".TaoyuanWebActivity" />
+        <activity android:name=".KeelungActivity" />
+        <activity android:name=".KeelungWebActivity" />
+        <activity android:name=".YilanActivity" />
+        <activity android:name=".YilanWebActivity" />
+        <activity android:name=".YunlinActivity"></activity>
+        <activity android:name=".ChanghuaActivity" />
+        <activity android:name=".TaichungActivity" />
+        <activity android:name=".NantouActivity" />
+        <activity android:name=".MiaoliActivity" />
+        <activity android:name=".PingtungActivity" />
+        <activity android:name=".KaohsiungActivity" />
+        <activity android:name=".TainanActivity" />
+        <activity android:name=".ChiayiActivity" />
+        <activity android:name=".MazuActivity" />
+        <activity android:name=".JinmenActivity" />
+        <activity android:name=".PenghuActivity" />
+        <activity android:name=".TaitungActivity" />
+        <activity android:name=".HualienActivity" />
+        <activity android:name=".TaipeiActivity" />
+        <activity android:name=".TaipeiWeb" />
+        <activity android:name=".startTestActivity" />
+        <activity android:name=".islandActivity" />
+        <activity android:name=".eastActivity" />
+        <activity android:name=".southActivity" />
+        <activity android:name=".centralActivity" />
+        <activity android:name=".northActivity" />
+        <activity android:name=".testActivity" />
+        <activity android:name=".areaActivity" />
+        <activity android:name=".joinActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

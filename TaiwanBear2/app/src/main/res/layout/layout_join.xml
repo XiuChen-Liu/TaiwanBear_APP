@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".joinActivity"
+    android:background="@drawable/backgroud">
+
+    <TextView
+        android:id="@+id/TV01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70sp"
+        android:text="歡迎來到台灣bear\n這是一款認識美麗之島-台灣的遊戲\n準備好跟著我們一起探險了嗎?"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:alpha="0.8"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/BtnLearn"
+        android:layout_below="@+id/TV01"
+        android:layout_width="200sp"
+        android:layout_height="80sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60sp"
+        android:text="學習知識"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:backgroundTint="#504A4A"
+        android:textColor="@color/white"
+        android:onClick="actionPerformed"/>
+
+    <Button
+        android:id="@+id/BtnTest"
+        android:layout_width="200sp"
+        android:layout_height="80sp"
+        android:layout_below="@+id/BtnLearn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60sp"
+        android:onClick="actionPerformed"
+        android:text="進入測驗"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:backgroundTint="#504A4A" />
+
+
+
+
+
+    <ImageView
+        android:id="@+id/markbear"
+        android:layout_width="200dp"
+        android:layout_height="192dp"
+        android:layout_below="@+id/BtnLearn"
+        android:layout_marginLeft="110sp"
+        android:layout_marginTop="175dp"
+        android:src="@drawable/bear" />
+
+</RelativeLayout>

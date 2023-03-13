@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HsinchuActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/topimg"
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:src="@drawable/chu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hsinchu 新竹"
+            android:textColor="@color/white"
+            android:textSize="48dp"
+            android:textStyle="bold"
+            android:layout_marginTop="163dp"
+            android:layout_marginLeft="3dp"/>
+
+        <TextView
+            android:layout_below="@+id/topimg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="城市介紹"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+
+            android:background="#006030"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:id="@+id/introducein1"/>
+        <TextView
+            android:layout_below="@+id/introducein1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="位於臺灣北部的都市，新竹都會區的中心城市，1711年建城，是北臺灣閩南人最早建立的城市。新竹市是全球高科技代工產業的重鎮，日治時期臺灣總督府於1936年成立天然瓦斯研究所，中華民國政府於1970年代成立工業技術研究院及1980年代初期成立的新竹科學工業園區，吸引大批國內與國際廠商的投資及許多高科技人力移居，加速台灣高科技工業的發展。"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+
+            android:gravity="center"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:typeface="normal"
+            android:background="#FFFFFF"
+            android:alpha="0.9"
+            android:id="@+id/introduce"/>
+
+
+
+
+        <TextView
+            android:layout_below="@+id/introduce"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="地理小知識"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:background="#006030"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:id="@+id/introducein"/>
+
+        <TextView
+            android:layout_below="@+id/introducein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全境除南半部屬竹東丘陵外，其餘為地勢低平的平原。氣候為海洋性副熱帶季風氣候"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:typeface="normal"
+            android:background="#FFFFFF"
+            android:alpha="0.9"
+            android:textStyle="bold"
+            android:id="@+id/knol"/>
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/knol"
+            android:layout_marginTop="40dp"
+            android:text="點我看更多資訊"
+            android:backgroundTint="#006030"
+            android:onClick="actionPerformed"
+            android:textColor="@color/white"
+            android:id="@+id/BtnWeb"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>

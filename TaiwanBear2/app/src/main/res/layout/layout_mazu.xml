@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaipeiActivity"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/topimg"
+            android:layout_width="match_parent"
+            android:layout_height="248dp"
+            android:src="@drawable/blueeyes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mazu 馬祖"
+            android:textColor="@color/white"
+            android:textSize="48dp"
+            android:textStyle="bold"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="3dp"/>
+
+        <TextView
+            android:id="@+id/introducein1"
+            android:layout_below="@+id/topimg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="城市介紹"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:background="#006030"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:paddingTop="3dp"/>
+        <TextView
+            android:id="@+id/introduce"
+            android:layout_below="@+id/introducein1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="以「媽祖」而得名，由南竿、北竿、莒光及東引等數十座島嶼所構成，馬祖地區在解除戰地政務以後，軍事重地一一解禁成為民眾觀光的景點，例如著名的美景:藍眼淚。"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:typeface="normal"
+            android:background="#FFFFFF"
+            android:alpha="0.9" />
+        <TextView
+            android:id="@+id/introducein"
+            android:layout_below="@+id/introduce"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="地理小知識"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:background="#006030"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:paddingTop="3dp" />
+
+        <TextView
+            android:id="@+id/knol"
+            android:layout_below="@+id/introducein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="為東西窄、南北狹長的地形，其中南竿是第一大島，也是馬祖的政經文教中心。島上的火成岩以花崗岩與花崗閃長岩組成為主，在經過東北和西南季風及雨水長時間風浪侵蝕，形成壯闊的險崖峭壁以及海蝕溝，層次分明的節理，以及海蝕門、海蝕柱、海蝕洞、崩石海礁等，呈現多樣化的地質景觀。
+            \n氣候為亞熱帶海洋性氣候，受季風、洋流及地理位置影響，有分明的四季天氣，冬冷潮濕，春夏多霧，早晚溫差大。"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:typeface="normal"
+            android:background="#FFFFFF"
+            android:alpha="0.9"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/moreInfor"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/knol"
+            android:layout_marginTop="40dp"
+            android:text="點我看更多資訊"
+            android:backgroundTint="#006030"
+            android:onClick="actionPerformed"/>
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/TvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="台灣Bear"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="85dp"/>
+
+    <ImageView
+        android:id="@+id/markbear"
+        android:layout_width="70dp"
+        android:layout_height="63dp"
+        android:src="@drawable/bear"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:id="@+id/backgroudMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/map01"
+        android:layout_marginTop="60dp"/>
+
+    <Button
+        android:id="@+id/BtnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="340dp"
+        android:onClick="actionPerformed"
+        android:text="START"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:backgroundTint="#504A4A" />
+
+</RelativeLayout>

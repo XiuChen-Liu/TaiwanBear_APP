@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaipeiActivity"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/topimg"
+            android:layout_width="match_parent"
+            android:layout_height="273dp"
+            android:src="@drawable/hualien" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hualien 花蓮"
+            android:textColor="@color/white"
+            android:textSize="48dp"
+            android:textStyle="bold"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="3dp"/>
+
+        <TextView
+            android:id="@+id/introducein1"
+            android:layout_below="@+id/topimg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="城市介紹"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:background="#006030"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:paddingTop="3dp"/>
+        <TextView
+            android:id="@+id/introduce"
+            android:layout_below="@+id/introducein1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="花蓮是臺灣面積最大的縣市，西元1590年，葡萄牙人航經臺灣東岸，看見壯麗的山川美景呈現於眼前，不禁驚呼「FORMOSA!」，因此台灣另有「福爾摩沙」的美名。全縣幾乎位於國家設立的風景區中，有高山峽谷的太魯閣國家公園、雄偉壯闊的玉山國家公園，以自然觀光資源著名。花蓮縣是台灣原住民最多的區域，境內原住民以台灣原住民第一大族阿美族分布最廣，另外還有太魯閣族、布農族、噶瑪蘭族、撒奇萊雅族、賽德克族等。為東部地區都市規模最大、最熱鬧、機能最好的都會區。"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:typeface="normal"
+            android:background="#FFFFFF"
+            android:alpha="0.9" />
+        <TextView
+            android:id="@+id/introducein"
+            android:layout_below="@+id/introduce"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="地理小知識"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:background="#006030"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:paddingTop="3dp" />
+
+        <TextView
+            android:id="@+id/knol"
+            android:layout_below="@+id/introducein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="多山地形，平原僅有全面積的百分之十。縱谷平原上的河川沖積扇地形，稱為花東縱谷。海岸山脈地質上多為軟性的沉積岩、板岩易受崩壞作用影響，也在海岸山脈形成數個大小不一的盆地。主要的河川多為東西流向，由於有多條河流出海，造成種類眾多的海岸景觀，例如最著名的清水斷崖。氣候為副熱帶季風氣候，全年均溫23.1度，溫暖宜人，適合居住。"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:typeface="normal"
+            android:background="#FFFFFF"
+            android:alpha="0.9"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/moreInfor"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/knol"
+            android:layout_marginTop="40dp"
+            android:text="點我看更多資訊"
+            android:backgroundTint="#006030"
+            android:onClick="actionPerformed"/>
+    </RelativeLayout>
+
+
+</ScrollView>
